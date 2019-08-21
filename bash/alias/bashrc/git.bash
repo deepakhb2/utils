@@ -1,0 +1,23 @@
+## Rails Alaises
+alias rc='rails c'
+alias rs='rails s'
+
+## Git Alaises
+alias gc='git checkout'
+alias gb='git branch'
+alias gd='git diff'
+alias gm='git merge --no-ff'
+alias gr='git remote -v'
+alias gs='git status'
+alias ga='git add'
+alias gf='git fetch'
+alias gps='git push'
+alias gpso='git push origin'
+alias gpl='git pull'
+alias gplo='git pull origin'
+alias gplr='git pull --rebase'
+alias gplro='git pull --rebase origin'
+alias gpb='git push bitbucket'
+alias gac='git add . && git commit -a'
+alias gacm='git add . && git commit -am'
+alias gpd='git push --delete'
