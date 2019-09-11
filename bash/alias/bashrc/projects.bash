@@ -10,3 +10,11 @@ do
     alias ${dir}-mvim="cd $path;mvim"
   done
 done
+
+## Rails Alaises
+alias rc='rails c'
+alias rs='rails s'
+
+## npm
+alias ns='npm start'
+alias ni='npm install'
