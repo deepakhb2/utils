@@ -14,6 +14,7 @@ alias nii='npm -i install'
 alias py='python'
 alias pyvenv='python -m venv'                    # pyvenv mysite/env
 alias pymm='python manage.py migrate'
+alias pymt='python manage.py test'
 alias pymcsu='python manage.py createsuperuser'
 alias pymsa='python manage.py startapp'          # pymsa app_name // create app inproject
 alias pymmm='python manage.py makemigrations'    # pymmm app_name // Run migrations on app

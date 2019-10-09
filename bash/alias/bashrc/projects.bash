@@ -1,12 +1,9 @@
-OLDIFS=$IFS
-IFS=" "
 for project in $projects
 do
-  IFS=$OLDIFS
-  for path in $(find $project ! -path $project -maxdepth 1 -type d)
+  for temppath in $(find $project ! -path $project -maxdepth 1 -type d)
   do
-    dir=${path##*/}
-    alias ${dir}="cd $path"
-    alias ${dir}-mvim="cd $path;mvim"
+    dir=${temppath##*/}
+    alias ${dir}="cd $temppath"
+    alias ${dir}-mvim="cd $temppath;mvim"
   done
 done
