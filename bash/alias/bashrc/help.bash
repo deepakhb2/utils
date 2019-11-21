@@ -1,4 +1,5 @@
-alias catcommands="cat $utils/bash/alias/bashrc/commands.bash"
-alias catpythoncommands="cat $utils/bash/alias/bashrc/commands-python.bash"
+alias catrails="cat $utils/bash/alias/bashrc/rails.bash"
+alias catpython="cat $utils/bash/alias/bashrc/python.bash"
+alias catnpm="cat $utils/bash/alias/bashrc/npm.bash"
 alias catgit="cat $utils/bash/alias/bashrc/git.bash"
 alias catdocker="cat $utils/bash/alias/bashrc/docker.bash"
