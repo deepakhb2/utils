@@ -46,3 +46,5 @@ alias gstc='git stash clear'                # Delete all saved stash.
 alias gstd='git stash drop'                 # Delete a stash by id. eg. gstd <stash-id> 
 alias gt='git tag'                          # List all tags.              
 alias gt-a='git tag -a'                     # Add new tag. eg. gt-a <tag-name>
+alias gt-d='git tag -d'                     # Delete tag. eg. gt-d <tag-name>
+alias gp--t='git push --tags'               # Push tags
