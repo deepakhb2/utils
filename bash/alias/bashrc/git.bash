@@ -22,6 +22,7 @@ alias gl--o='git log --oneline'             # Show all logs in one line.
 alias gl-p='git log -p'                     # show commit history for last N commits with diff eg. gl-p -2
 alias gm-n='git merge --no-ff'
 alias gps='git push'
+alias gps--fo='git push --force origin'
 alias gpl='git pull'
 alias gplo='git pull origin'
 alias gpl--r='git pull --rebase'
