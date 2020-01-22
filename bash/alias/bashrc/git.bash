@@ -49,3 +49,5 @@ alias gt='git tag'                          # List all tags.
 alias gt-a='git tag -a'                     # Add new tag. eg. gt-a <tag-name>
 alias gt-d='git tag -d'                     # Delete tag. eg. gt-d <tag-name>
 alias gp--t='git push --tags'               # Push tags
+alias grm--c='git rm --cached'              # Remove files from git track eg. grm-r--c <<file>>
+alias grm--c-r='git rm --cached -r'         # Remove folder from git track eg. grm-r--c <<folder>>
