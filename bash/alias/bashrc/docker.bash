@@ -1,5 +1,6 @@
 alias dr='docker'
 alias drc='docker-compose'
+alias drc-f='docker-compose -f'                         # eg. drc-f <docker-compose.yml> up/down etc
 alias drcb='docker-compose build'
 alias drcu='docker-compose up'
 alias drcd='docker-compose down'
