@@ -6,3 +6,6 @@ alias catdocker="cat $utils/bash/alias/bashrc/docker.bash"
 alias catelastic="cat $utils/bash/alias/bashrc/elastic.bash"
 alias catpostgres="cat $utils/bash/alias/bashrc/postgres.bash"
 alias catrvm="cat $utils/bash/alias/bashrc/rvm.bash"
+alias catkubernetes="cat $utils/bash/alias/bashrc/kubernetes.bash"
+alias cathelm="cat $utils/bash/alias/bashrc/helm.bash"
+
