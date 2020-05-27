@@ -9,7 +9,10 @@ alias py3-mv='python3.7 -m venv'                    # pyvenv mysite/env
 alias src-act='source'                              # source path-for-activate.
 
 alias py='python'                                   # Dpending on virtual environment
+alias pyact='source env/bin/activate'
+alias pydeact='deactivate'
 ## Django
+alias pymmm='python manage.py makemigration'
 alias pymm='python manage.py migrate'
 alias pymt='python manage.py test'
 alias pymcsu='python manage.py createsuperuser'
