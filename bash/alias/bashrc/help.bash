@@ -8,4 +8,4 @@ alias catpostgres="cat $utils/bash/alias/bashrc/postgres.bash"
 alias catrvm="cat $utils/bash/alias/bashrc/rvm.bash"
 alias catkubernetes="cat $utils/bash/alias/bashrc/kubernetes.bash"
 alias cathelm="cat $utils/bash/alias/bashrc/helm.bash"
-
+alias catshell="cat $utils/bash/alias/bashrc/shell.bash"
