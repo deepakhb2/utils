@@ -6,5 +6,6 @@ do
     dir=${temppath##*/}
     alias ${dir}="cd $temppath"
     alias ${dir}-code="cd $temppath;code ."
+    alias ${dir}-mvim="cd $temppath;mvim"
   done
 done
