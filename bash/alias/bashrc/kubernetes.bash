@@ -1,5 +1,7 @@
 alias kub='kubectl'
 alias kubg='kubectl get'
+alias kubds='kubectl describe'
+alias kubdl='kubectl delete'
 alias kubgp='kubectl get pods'
 alias kubgp--a-n='kubgp --all-namespaces'
 alias kubgp--n='kubectl get pods  --namespace'
