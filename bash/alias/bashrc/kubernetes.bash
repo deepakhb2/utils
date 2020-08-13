@@ -5,7 +5,7 @@ alias kubdl='kubectl delete'
 alias kubgp='kubectl get pods'
 alias kubgp--a-n='kubgp --all-namespaces'
 alias kubgp--n='kubectl get pods  --namespace'
-alias kubdp='kubectl delete pod'                              # kubdp <pod-name> --now
+alias kubdlp='kubectl delete pod'                              # kubdp <pod-name> --now
 alias kubr='kubectl run'                                      # kubr --image=<image-name> <pode-name> --port=<number> --env="DOMAIN=cluster"
 alias kubp-f--n='kubectl port-forward --namespace'   # kub--ndp-f <pod-name> port:port
 alias kubgn='kubectl get namespace'

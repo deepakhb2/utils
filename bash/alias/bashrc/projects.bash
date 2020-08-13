@@ -9,3 +9,11 @@ do
     alias ${dir}-mvim="cd $temppath;mvim"
   done
 done
+
+for dirPath in $dirPaths
+do
+  dir=${dirPath##*/}
+  alias ${dir}="cd $dirPath"
+  alias ${dir}-code="cd $dirPath;code ."
+  alias ${dir}-mvim="cd $dirPath;mvim"
+done

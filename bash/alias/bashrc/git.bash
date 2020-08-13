@@ -14,13 +14,12 @@ alias gcm='git commit'
 alias gcmm='git commit -m'
 
 alias gco='git checkout'
-alias gcob='git checkout -b'
 alias gco-b='git checkout -b'
 
 alias gcl-f='git clean -f'                  # Delete all untracked files.
 alias gcl-df='git clean -df'                # Delete all untracked files and directories.
 
-alias gd='git diff'
+alias gdf='git diff'
 
 alias gf='git fetch'
 alias gi='git init'
@@ -49,14 +48,18 @@ alias grb-s='git rebase --skip'
 alias grb-a='git rebase --abort'
 
 alias gre='git remote'
-alias greao='git remote add origin'
+alias grea='git remote add'
 alias gresH='git reset HEAD'
+alias gres='git remote show'
 alias greso='git remote show origin'          # Show remote branches and their mapping to local.
+alias gres-u='git remote set-url'
 alias gres-uo='git remote set-url origin'
 alias gre-v='git remote -v'
+alias grep='git remote prune'
 alias grepo='git remote prune origin'         # Remove the branhes that are not linked to remote.
 
 alias gs='git status'
+
 alias gst='git stash'
 alias gsts='git stash save'                 # Save changes to a stash. eg. gsts <stash-name> && git stash
 alias gstl='git stash list'                 # List all stashes.
