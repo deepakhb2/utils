@@ -6,7 +6,7 @@ do
     dir=${temppath##*/}
     bname=$(basename $dir)
     alias ${dir}="cd $temppath;tmux new -s $bname"
-    alias ${dir}-code="cd $temppath;tmux new -s $bname;code ."
-    alias ${dir}-mvim="cd $temppath;tmux new -s $bname;mvim"
+    alias ${dir}-code="cd $temppath;code .;tmux new -s $bname"
+    alias ${dir}-mvim="cd $temppath;mvim;tmux new -s $bname"
   done
 done
