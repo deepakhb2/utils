@@ -5,8 +5,17 @@ do
   do
     dir=${temppath##*/}
     bname=$(basename $dir)
-    alias ${dir}="cd $temppath;tmux new -s $bname"
-    alias ${dir}-code="cd $temppath;code .;tmux new -s $bname"
-    alias ${dir}-mvim="cd $temppath;mvim;tmux new -s $bname"
+    bname=$(echo $bname | sed "s/\./-/g")
+    alias ${dir}="cd $temppath;tmux attach -t $bname; tmux new -s $bname"
+    alias ${dir}-code="cd $temppath;code .;tmux attach -t $bname; tmux new -s $bname"
+    alias ${dir}-mvim="cd $temppath;mvim;tmux attach -t $bname; tmux new -s $bname"
   done
+done
+
+for dirPath in $dirPaths
+do
+  bname=$(basename $dirPath)
+  alias ${bname}="cd $dirPath;tmux new -s $bname"
+  alias ${bname}-code="cd $dirPath;tmux new -s $bname;code ."
+  alias ${bname}-mvim="cd $dirPath;tmux new -s $bname;mvim"
 done
