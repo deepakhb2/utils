@@ -15,7 +15,7 @@ done
 for dirPath in $dirPaths
 do
   bname=$(basename $dirPath)
-  alias ${bname}="cd $dirPath;tmux new -s $bname"
-  alias ${bname}-code="cd $dirPath;tmux new -s $bname;code ."
-  alias ${bname}-mvim="cd $dirPath;tmux new -s $bname;mvim"
+  alias ${bname}="cd $dirPath;tmux attach -t $bname;tmux new -s $bname"
+  alias ${bname}-code="cd $dirPath;code .;tmux attach -t $bname;tmux new -s $bname"
+  alias ${bname}-mvim="cd $dirPath;mvim;tmux attach -t $bname;tmux new -s $bname"
 done
