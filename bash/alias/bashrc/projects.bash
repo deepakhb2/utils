@@ -11,7 +11,7 @@ do
     alias ${dir}-mvim="cd $temppath;mvim"
     alias ${dir}-tmux="cd $temppath;tmux attach -t $bname; tmux new -s $bname"
     alias ${dir}-tmux-code="cd $temppath;code .;tmux attach -t $bname; tmux new -s $bname"
-    alias ${dir}-tumx-mvim="cd $temppath;mvim;tmux attach -t $bname; tmux new -s $bname"
+    alias ${dir}-tmux-mvim="cd $temppath;mvim;tmux attach -t $bname; tmux new -s $bname"
   done
 done
 

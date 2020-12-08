@@ -14,6 +14,6 @@ alias hmsr='helm search repo'
 alias hmsv='helm show values'
 alias hmt='helm teplate'
 alias hmts='helm test'
-alias hmu='helm uninstall'                          # hmu <name>
+alias hmui='helm uninstall'                          # hmu <name>
 alias hmu='helm upgrade'
 alias hmv='helm version'
