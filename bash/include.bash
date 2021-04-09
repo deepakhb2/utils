@@ -1,6 +1,9 @@
+source "$utils/bash/alias/bashrc/yarn.bash"
+
 source "$utils/bash/alias/bashrc/angular.bash"
 source "$utils/bash/alias/bashrc/aws.bash"
 source "$utils/bash/alias/bashrc/ctags.bash"
+source "$utils/bash/alias/bashrc/celo.bash"
 source "$utils/bash/alias/bashrc/docker.bash"
 source "$utils/bash/alias/bashrc/firebase.bash"
 source "$utils/bash/alias/bashrc/git.bash"

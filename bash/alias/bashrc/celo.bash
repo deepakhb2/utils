@@ -1,0 +1,9 @@
+alias clynrc='ynr console'
+alias clynrd='ynr devchain'
+alias clynrm='ynr migrate'
+alias clynrg-d='ynr ganache-dev'
+alias clynrt:m='ynr truffle:migrate'
+alias clynrp:d='ynr prettier:diff'
+alias clynp-w--c='yn prettier -w --config .prettierrc.js'  # eg: yarn prettier -w --config .prettierrc.js packages/protocol/test/governance/voting/election.ts
+alias clynrc-nd='ynr console -n development'
+alias clynrm-nd='ynr migrate -n development'
