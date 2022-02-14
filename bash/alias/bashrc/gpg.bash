@@ -12,3 +12,5 @@ alias gpg--fp='gpg --fingerprint'
 alias gpg-e-u='gpg -e -u'                     # gpg-e-u "Sender User Name" -r "Receiver User Name" somefile'
 alias gpg-d='gpg -d'                          # gpg-d <encryptedfile>
 alias gpg--g-r='gpg --gen-revoke'
+alias gpg-K--k-fL='gpg -K --keyid-format LONG'
+alias gpg-K--k-fS='gpg -K --keyid-format SHORT'
