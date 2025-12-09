@@ -9,7 +9,7 @@ for project in $projects; do
     alias ${dir}-nvim="cd $temppath;nvim"
     alias ${dir}-tmux="cd $temppath;tmux attach -t $bname; tmux new -s $bname"
     alias ${dir}-tmux-code="cd $temppath;code .;tmux attach -t $bname; tmux new -s $bname"
-    alias ${dir}-tmux-nvim="cd $temppath;tmux attach -t $bname; tmux new -s $bname; nvim"
+    alias ${dir}-tmux-nvim="cd $temppath;tmux attach -t $bname; tmux new -s $bname 'nvim'"
   done
 done
 
@@ -20,5 +20,5 @@ for dirPath in $dirPaths; do
   alias ${bname}-nvim="cd $dirPath;nvim"
   alias ${bname}-tmux="cd $dirPath;tmux attach -t $bname;tmux new -s $bname"
   alias ${bname}-tmux-code="cd $dirPath;code .;tmux attach -t $bname;tmux new -s $bname"
-  alias ${bname}-tmux-nvim="cd $dirPath;tmux attach -t $bname;tmux new -s $bname;nvim"
+  alias ${bname}-tmux-nvim="cd $dirPath;tmux attach -t $bname;tmux new -s $bname 'nvim'"
 done
