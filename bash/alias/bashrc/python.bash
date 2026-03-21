@@ -2,22 +2,21 @@
 alias py2='python2.7'
 alias vie-pp2='virtualenv -p python2.7'             # vie-pp2 env2/
 
-
 ## Python 3
-alias py3='python3.7'
-alias py3-mv='python3.7 -m venv'                    # pyvenv mysite/env
+alias py3='python3'
+alias py3-mv='python3 -m venv'                      # py3-mv mysite/env
 alias src-act='source'                              # source path-for-activate.
 
-alias py='python'                                   # Dpending on virtual environment
-alias pyact='source env/bin/activate'
+alias py='python'                                   # Depending on virtual environment
+alias pyact='[[ -f env/bin/activate ]] && source env/bin/activate || [[ -f .venv/bin/activate ]] && source .venv/bin/activate'
 alias pydeact='deactivate'
+
 ## Django
-alias pymmm='python manage.py makemigration'
+alias pymmm='python manage.py makemigrations'
 alias pymm='python manage.py migrate'
 alias pymt='python manage.py test'
 alias pymcsu='python manage.py createsuperuser'
-alias pymsa='python manage.py startapp'             # pymsa app_name // create app inproject
-alias pymmm='python manage.py makemigrations'       # pymmm app_name // Run migrations on app
+alias pymsa='python manage.py startapp'             # pymsa app_name // create app in project
 alias pymrs='python manage.py runserver'
 alias pyms='python manage.py shell'
 

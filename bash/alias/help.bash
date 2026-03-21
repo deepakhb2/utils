@@ -1,8 +1,10 @@
-bashrc=$(echo "$utils/bash/alias/bashrc")
-for temppath in $(find $bashrc -type f)
-do
-  dir=${temppath}
-  bname=$(basename $dir)
-  bname=$(echo $bname | sed "s/\./-/g")
-  alias cat-${bname}="cat $dir"
-done
+bashrc="$utils/bash/alias/bashrc"
+if [[ -d "$bashrc" ]]; then
+  for temppath in "$bashrc"/*; do
+    if [[ -f "$temppath" ]]; then
+      bname=$(basename "$temppath")
+      bname=${bname//./-}
+      alias "cat-${bname}"="cat \"$temppath\""
+    fi
+  done
+fi

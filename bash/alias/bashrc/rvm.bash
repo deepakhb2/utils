@@ -12,7 +12,6 @@ alias rvmrm='rvm remove'                      # remove ruby and downloaded sourc
 alias rvmrq='rvm requirements'                # installs dependencies for building ruby
 alias rvmrtr-v='rvm rvmrc to ruby-version'    # eg: rvmrtr-v
 alias rvmu='rvm use'
-alias rvmu='rvm use'
 alias rvmuc='rvm use default'
 alias rvmui='rvm uninstall'                   # uninstall ruby, keeping it's sources
 alias rvmusys='rvm use system'

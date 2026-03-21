@@ -1,7 +1,6 @@
 source "$utils/bash/alias/bashrc/tmux.bash"
 source "$utils/bash/alias/bashrc/yarn.bash"
 
-
 source "$utils/bash/alias/bashrc/angular.bash"
 source "$utils/bash/alias/bashrc/aws.bash"
 source "$utils/bash/alias/bashrc/ctags.bash"
@@ -25,5 +24,3 @@ source "$utils/bash/alias/bashrc/services.bash"
 source "$utils/bash/alias/bashrc/shell.bash"
 source "$utils/bash/alias/bashrc/ssh.bash"
 source "$utils/bash/alias/bashrc/terraform.bash"
-# source "$utils/bash/alias/bashrc/zsh-plugin-help.bash"
-# source "$utils/bash/alias/bashrc/zsh-lazy-load.bash"
